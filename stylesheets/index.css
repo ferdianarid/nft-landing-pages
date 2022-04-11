@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #1F253F;
+}
+
+.left-side {
+    height: 600px;
+}
+
+.plates {
+    height: 660px;
+}
+
+.right-cover {
+    height: 860px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
